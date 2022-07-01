@@ -1,0 +1,40 @@
+.notesContainer {
+  display: grid;
+  flex-wrap: wrap;
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template-columns: 1fr;
+
+  min-height: 80vh;
+  max-width: 80%;
+  margin: auto;
+  gap: 1rem;
+
+}
+
+
+
+.addNote {
+  position: fixed;
+  z-index: 1;
+  right: 1em;
+  bottom: 1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+  border: 0;
+}
+
+@media(min-width:47.5em) {
+  .notesContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width:55em) {
+  .notesContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.notesContainer::backdrop {
+  color: red;
+}

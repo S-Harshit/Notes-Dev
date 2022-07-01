@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.addNoteContainer {
+  min-height: fit-content;
+  max-width: 80%;
+  border: 0;
+  box-shadow: 0 0 1em rgba(0, 0, 0, .3);
+
+}
+
+.addNoteContainer::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+input {
+  font-family: 'Pacifico', cursive;
+  display: block;
+  height: 4rem;
+  margin: 1em;
+
+}
+
+button {
+  width: 6em;
+  height: 4em;
+  background: black;
+  color: white;
+  margin: 0.5em;
+}
