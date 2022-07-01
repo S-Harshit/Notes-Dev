@@ -18,6 +18,7 @@ input {
   display: block;
   height: 4rem;
   margin: 1em;
+  margin-top: 0;
 
 }
 
@@ -27,4 +28,8 @@ button {
   background: black;
   color: white;
   margin: 0.5em;
+}
+
+.cancel {
+  min-height: fit-content;
 }

@@ -4,6 +4,7 @@ export const AddNoteModal = () => {
   return (
     <>
       <dialog className="addNoteContainer">
+        <p className="cancel">Press Esc to Cancel</p>
         <input className="title" type="text" name="title" placeholder="title" />
 
         <input
@@ -14,7 +15,6 @@ export const AddNoteModal = () => {
         />
 
         <input className="body" type="text" name="content" placeholder="note" />
-        <button>Cancel</button>
         <button>Add</button>
       </dialog>
     </>

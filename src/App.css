@@ -5,10 +5,14 @@ h1 {
   text-align: center;
   padding: 0px;
   font-family: 'Dancing Script', cursive;
-  
+
   /* font-family: 'Pacifico', cursive; */
 }
 
 .page {
   height: 50px;
+}
+
+.cancel {
+  min-height: fit-content;
 }

@@ -4,6 +4,7 @@ export const EditNote = ({ note }) => {
   return (
     <>
       <dialog className="editNoteContainer">
+        <p className="cancel">Press Esc to Cancel</p>
         <input
           className="title"
           type="text"
@@ -24,7 +25,7 @@ export const EditNote = ({ note }) => {
           name="content"
           defaultValue={note.body}
         />
-        <button>Cancel</button>
+
         <button>Confirm</button>
       </dialog>
     </>
